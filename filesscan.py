@@ -8,7 +8,7 @@ count = 0
 # result = []
 # for p in path.rglob("*.pdf"):
 #     result.append(p.suffix)
-#     # print(p.name, "\t\t\t", "{0:.2f}".format((p.stat().st_size)/1024), "KB")
+#     print(p.name, "\t\t\t", "{0:.2f}".format((p.stat().st_size)/1024), "KB")
 
 # # print(result[0])
 # # print(tabulate(result, headers=['Suffix', 'Size']))
