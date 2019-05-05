@@ -1,7 +1,7 @@
 from pathlib import Path
 from tabulate import tabulate
 
-userPath = r'C:/Users/Mohit/OneDrive/Desktop/'
+userPath = r'C:/Users/Mohit/OneDrive/Desktop/' # Edit this location according to your disire
 
 path = Path(userPath)
 count = 0
