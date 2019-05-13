@@ -2,6 +2,7 @@ from pathlib import Path
 from tabulate import tabulate
 
 userPath = r'C:/Users/Mohit/OneDrive/Desktop/'
+moviePath = r'E:/Movies'
 
 path = Path(userPath)
 count = 0
@@ -30,7 +31,7 @@ def get_suffix_with_total():
     for i, x in enumerate(dupes):
         result.append([dupes[i], seen[dupes[i]]])
 
-    return result
+    return sorted(result, key=lambda k: float(k[1]))
 
 
 def get_files_stat():
